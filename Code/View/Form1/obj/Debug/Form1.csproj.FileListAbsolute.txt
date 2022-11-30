@@ -9,3 +9,14 @@ C:\Users\THINKPAD\Desktop\COURS PROSIT\Form1\obj\Debug\Form1.csproj.GenerateReso
 C:\Users\THINKPAD\Desktop\COURS PROSIT\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
 C:\Users\THINKPAD\Desktop\COURS PROSIT\Form1\obj\Debug\Form1.exe
 C:\Users\THINKPAD\Desktop\COURS PROSIT\Form1\obj\Debug\Form1.pdb
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\bin\Debug\Form1.exe.config
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\bin\Debug\Form1.exe
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\bin\Debug\Form1.pdb
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\obj\Debug\Form1.csproj.AssemblyReference.cache
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\obj\Debug\Form1.csproj.SuggestedBindingRedirects.cache
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\obj\Debug\Form1.Form1.resources
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\obj\Debug\Form1.exe
+C:\Users\THINKPAD\Documents\GitHub\Projet-Syst-me-Groupe-3\Code\View\Form1\obj\Debug\Form1.pdb
