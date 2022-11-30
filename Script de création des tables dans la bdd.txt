@@ -1,0 +1,45 @@
+CREATE TABLE Recette(
+        Id_recette Integer identity(1,1)  primary key  NOT NULL ,
+        Nom        Varchar (30) NOT NULL ,
+        Prix       Int NOT NULL
+
+)
+
+
+CREATE TABLE Commande(
+        ID_commande           Integer identity(1,1)  NOT NULL ,
+        Id_recette   Int NOT NULL ,
+        Nom_recette  Varchar (30) NOT NULL ,
+        Prix_recette Int NOT NULL
+
+)
+CREATE TABLE Ingredients_recette(
+        ID_ing_rec                  Integer identity(1,1)  NOT NULL ,
+        Id_recette          Int NOT NULL ,
+        Id_ingredient       Int NOT NULL ,
+        Quantite            Float NOT NULL ,
+        Id_recette_Contenir Int NOT NULL
+
+
+)
+
+
+
+
+
+CREATE TABLE Ingredient_en_stock(
+        ID             Integer identity(1,1)  NOT NULL ,
+        Nom            Varchar (15) NOT NULL ,
+        Quantite_stock Int NOT NULL ,
+        Categorie      Text NOT NULL
+	,CONSTRAINT Ingredient_en_stock_PK PRIMARY KEY (ID)
+)
+
+
+
+CREATE TABLE Ustensils(
+        ID       Integer identity(1,1)  NOT NULL ,
+        Nom      Varchar (10) NOT NULL ,
+        Quantite Int NOT NULL
+	,CONSTRAINT Ustensils_PK PRIMARY KEY (ID)
+)
