@@ -1,0 +1,32 @@
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\obj\Debug\GesRestaurant.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\obj\Debug\GesRestaurant.Properties.Resources.resources
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\obj\Debug\Project.Form1.resources
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\obj\Debug\GesRestaurant.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\obj\Debug\GesRestaurant.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\bin\Debug\GesRestaurant.exe.config
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\bin\Debug\GesRestaurant.exe
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\bin\Debug\GesRestaurant.pdb
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\bin\Debug\SpriteLibrary.dll
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\bin\Debug\SpriteLibrary.pdb
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\bin\Debug\SpriteLibrary.xml
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\obj\Debug\GesRestaurant.csproj.CopyComplete
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\obj\Debug\GesRestaurant.exe
+C:\Users\USER\Desktop\IUT-FV\LIVRABLES-FINAUX-master\Geppetto\obj\Debug\GesRestaurant.pdb
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\bin\Debug\GesRestaurant.exe.config
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\bin\Debug\GesRestaurant.exe
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\bin\Debug\GesRestaurant.pdb
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\bin\Debug\SpriteLibrary.pdb
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\bin\Debug\SpriteLibrary.xml
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\obj\Debug\GesRestaurant.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\obj\Debug\GesRestaurant.Properties.Resources.resources
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\obj\Debug\Project.Form1.resources
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\obj\Debug\GesRestaurant.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\obj\Debug\GesRestaurant.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\obj\Debug\GesRestaurant.csproj.CopyComplete
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\obj\Debug\GesRestaurant.exe
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\Geppetto\obj\Debug\GesRestaurant.pdb
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\GesRestaurant\obj\Debug\GesRestaurant.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\GesRestaurant\obj\Debug\Project.Form1.resources
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\GesRestaurant\obj\Debug\GesRestaurant.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\GesRestaurant\obj\Debug\GesRestaurant.exe
+C:\Users\USER\Desktop\Ucac-icam\X3\Programmation Concurrente\Projet\Nouveau dossier\GesRestaurant\obj\Debug\GesRestaurant.pdb
