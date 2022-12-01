@@ -1,0 +1,117 @@
+CREATE TABLE Recette(
+        Id_recette Integer identity(1,1)  primary key  NOT NULL ,
+        Nom        Varchar (30) NOT NULL ,
+        Prix       Int NOT NULL
+
+)
+
+
+CREATE TABLE Commande(
+        ID_commande           Integer identity(1,1)  NOT NULL ,
+        Id_recette   Int NOT NULL ,
+        Nom_recette  Varchar (30) NOT NULL ,
+        Prix_recette Int NOT NULL
+
+)
+CREATE TABLE Ingredients_recette(
+        ID_ing_rec                  Integer identity(1,1)  NOT NULL ,
+        Id_recette          Int NOT NULL ,
+        Quantite            Float NOT NULL ,
+		Nom 		Varchar (50) NOT NULL
+
+
+)
+
+
+
+
+
+CREATE TABLE Ingredient_en_stock(
+        ID             Integer identity(1,1)  NOT NULL ,
+        Nom            Varchar (15) NOT NULL ,
+        Quantite_stock Int NOT NULL ,
+        Categorie      Text NOT NULL
+	,CONSTRAINT Ingredient_en_stock_PK PRIMARY KEY (ID)
+)
+
+
+
+CREATE TABLE Ustensils(
+        ID       Integer identity(1,1)  NOT NULL ,
+        Nom      Varchar (10) NOT NULL ,
+        Quantite Int NOT NULL
+	,CONSTRAINT Ustensils_PK PRIMARY KEY (ID)
+)
+
+
+
+
+
+--------INSERT INTO-------------------
+INSERT INTO Recette ( Nom, Prix) VALUES
+('Pizza Jeva', 1000),
+( 'Pizza Gorath', 10000),
+( 'Pizza Gorath', 5050),
+( 'Salade Mixte', 1300),
+( 'Pizza Gorath', 2000),
+( 'Salade Cesar', 3000),
+( 'Salade Mixte', 1800),
+( 'Pizza Jeva', 2990),
+( 'Salade Méditérranienne', 1000),
+( 'Pizza CCTL', 1000),
+( 'Pizza Gorath', 1000),
+( 'Pizza Jeva', 1000),
+( 'Pizza Juzzepe', 1000),
+( 'Pizza Londonienne', 1000),
+( 'Riz camerounais', 20000),
+('Œufs cocotte', 2000),
+('Feuilleté au crabe', 2000),
+('Bouillinade d’anguilles', 2000),
+('Boles de picoulats', 2000),
+('Blanquette de veau', 2000),
+('Gaspatcho', 2000),
+('Gaufres', 2000),
+('Pâté de sanglier', 2000),
+('Pâté de sanglier', 5000),
+('Crêpes', 100),
+('Tarte au thon', 2000),
+('Quiche-Lorraine', 2000),
+('PATE DE PORC', 2000),
+('foie gras à la vapeur', 2000),
+('Soupe chinoise', 2000),
+('Foie gras au muscat', 2000),
+('Chorba', 2000),
+('TIRAMISU', 3500),
+('MADELEINE AU MIEL', 5000)
+
+
+INSERT INTO Commande ( Id_recette, Nom_recette, Prix_recette) VALUES
+('126','Pâté de sanglier', 2000),
+( '2', 'Pizza Gorath', 10000),
+( '10', 'Pizza CCTL', 1000),
+( '104', 'Pizza Jeva', 1000),
+( '130', 'Quiche-Lorraine', 2000)
+
+INSERT INTO Ingredients_recette( Id_recette, Quantite, Nom) VALUES
+('128','5', 'Oeufs'),
+( '125', '75', 'sucre'),
+( '129', '50', 'farine'),
+( '124', '16', 'pain rassi'),
+( '131', '30', 'lait')
+
+
+INSERT INTO Ingredient_en_stock( Nom, Quantite_stock, Categorie) VALUES
+('oeufs','25', 'a'),
+( 'Tomates', '75', 'c'),
+( 'Salades', '50', 'c'),
+( 'Pâtes', '16', 'd'),
+( 'Fromages', '30', 'c'),
+('Steack', '0', 'Viande'),
+('Salade','0','Legume'),
+('Steack','0' ,'Legume'),
+('Fondant Chocolat','0','Surgeler'),
+('Pomme', '0', 'Fruit')
+
+
+
+
