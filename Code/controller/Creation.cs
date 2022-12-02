@@ -15,7 +15,6 @@ namespace Project
     {
         Model model;
         Form1 form;
-        //Commandes tasksS = new Commandes();
 
 
         public CreationSalle(Model model, Form1 form)
@@ -24,7 +23,7 @@ namespace Project
             this.form = form;
         }
 
-        /// Maitre d'hôtel /// 1
+        // Maitre d'hôtel 
         public void CreateButler()
         {
             model.restaurationRoom.butler.sprite = new Sprite(new Point(0, 64), form.spriteController, GesRestaurant.Properties.Resources.DwarfSprites, 32, 32, 200, 2);
@@ -37,7 +36,7 @@ namespace Project
             model.restaurationRoom.butler.sprite.MovementSpeed = 10;
         }
 
-        /// Serveurs /// 4
+        // Serveurs 
         public void CreateWaiters()
         {
             foreach (Square square in model.restaurationRoom.squares)
@@ -56,7 +55,7 @@ namespace Project
             }
         }
 
-        // Chef de rang // 2
+        // Chef de rang 
         public void CreateHeadWaiter()
         {
             foreach (Square square in model.restaurationRoom.squares)
@@ -77,7 +76,6 @@ namespace Project
     {
         Model model;
         Form1 form;
-        //Commandes tasksS = new Commandes();
 
 
         public CreationCuisine(Model model, Form1 form)
@@ -87,7 +85,7 @@ namespace Project
         }
 
 
-        /// Commis Cuisine /// 2
+        //Commis Cuisine 
         public void CreateCook()
         {
             foreach (Cook cook in model.kitchen.cooks)
@@ -131,9 +129,7 @@ namespace Project
     {
         Model model;
         Form1 form;
-        //Commandes tasksS = new Commandes();
-
-
+ 
         public CreationClient(Model model, Form1 form)
         {
             this.model = model;

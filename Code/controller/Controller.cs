@@ -21,7 +21,7 @@ namespace Project
         TableController tabf;
         Model model;
         Form1 form;
-
+      
         public Controller()
         {
             model = new Model();
@@ -32,6 +32,7 @@ namespace Project
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             form = new Form1(model);
+            
 
 
             butlerController = new ButlerController(model);
@@ -58,18 +59,18 @@ namespace Project
         }
         public void InitPerson()
         {
-            // SALLE //
+            // Restaurant
             //creationSalle.CreateCommisS();
             creationSalle.CreateButler();
             creationSalle.CreateWaiters();
             creationSalle.CreateHeadWaiter();
 
-            // CUISINE //
+            // Kitchen 
             creationCuisine.CreateChief();
             creationCuisine.CreateCook();
             creationCuisine.CreatePlong();
 
-            // CLIENT //
+            // Custommer
             creationClient.CreateClient();
         }
         public void Asign()
@@ -102,19 +103,6 @@ namespace Project
 
                     model.restaurationRoom.clients[0].state = Client.Etat.assis;
 
-
-
-                    /*commandes.GoToButler(model.restaurationRoom.clients[0].sprite);
-                    commandes.GoToButler(model.restaurationRoom.squares[0].headWaiter.sprite);
-                    commandes.GoToTable(model.restaurationRoom.squares[0].waiters[0].sprite, 3);
-                    commandes.GoToTable(model.restaurationRoom.clients[0].sprite, 3);
-                    Console.WriteLine("Le client va maintenant passer une commande");
-                    commandes.LetsOrder(model.restaurationRoom.clients[0]);
-
-                    Thread.Sleep(2000);
-                    Console.WriteLine("Le serveur va déclarer les ordres au chef");
-                    commandes.GoToKitchenChief(model.restaurationRoom.squares[0].waiters[0].sprite);
-                    kit.WatchLoop();*/
 
 
                 }
@@ -155,8 +143,6 @@ namespace Project
 
                 }
             }
-
-            //commandes.GoToTable(model.restaurationRoom.clients[0].sprite, model.restaurationRoom.clients[0].tableNumber);
         }
     }
     

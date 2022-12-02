@@ -23,7 +23,7 @@ namespace Project
         public void WatchLoop()
         {
             Console.WriteLine("Le Task (thread) WatchLoop du cookController est appelé");
-           // bool getOfLoop = false;
+           
             while (true)
             {
                 foreach(Cook cook in model.kitchen.cooks)
@@ -38,7 +38,7 @@ namespace Project
                             commandes.GoToKitchenPLAT(cook.sprite);
                             cook.isAvailable = true;
                             Console.WriteLine("Le cuisinier " + cook.sprite.SpriteName + "va déposer des plats pour le serveur");
-                            //Pas fait la manipulation dans la base de données
+                            
                     }
                 }
             }

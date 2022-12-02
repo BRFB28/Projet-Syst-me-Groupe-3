@@ -41,7 +41,7 @@ namespace Project
                                     }
                                     if (table.bread == false)
                                     {
-                                        //commandes pour aller au pain
+                                        //orders to serve bread
                                         commandes.Go4Bread(waiter.sprite);
                                         commandes.GoToTable(waiter.sprite, table.numberTable);
                                         table.bread = true;

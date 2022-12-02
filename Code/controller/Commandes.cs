@@ -5,10 +5,10 @@ using SpriteLibrary;
 
 namespace Project
 {
-    //new Model();
+    
     public class Commandes
     {
-        //////////////////////////////--   CUISINE   --/////////////////////////////
+        //Kitchen  
         Model model;
 
         public Commandes(Model model)
@@ -29,8 +29,9 @@ namespace Project
             }          
         }
 
-            //Méthode pour déposer plat sale
-            public void GoToKitchenVAISSELLE(Sprite sprite)
+        //Méthode pour déposer plat sale, Method for depositing dirty dish
+
+        public void GoToKitchenVAISSELLE(Sprite sprite)
             {
             var X = sprite.PictureBoxLocation.X;
             var Y = sprite.PictureBoxLocation.Y;
@@ -38,7 +39,7 @@ namespace Project
 
             if (X < 600)
             {
-                //Entrée cuisine gauche
+                //Entrée cuisine gauche,Left kitchen entrance
                 ptKitVSL.Add(new Point(615, Y));
                 ptKitVSL.Add(new Point(615, 200));
                 ptKitVSL.Add(new Point(700, 200));
@@ -46,7 +47,7 @@ namespace Project
             }
             else
             {
-                //Entrée cuisine bas
+                //Entrée cuisine bas, Lower kitchen entrance
                 ptKitVSL.Add(new Point(1255, Y));
                 ptKitVSL.Add(new Point(1255, 415));
                 ptKitVSL.Add(new Point(1117, 410));
@@ -56,8 +57,8 @@ namespace Project
                 ptKitVSL.Add(new Point(1020, 230));
             }
 
-            //Method déposer Assiette ();
-            //Do.SomethingNext()
+            //Method déposer Assiette (),Method drop Plate
+
             while (!sprite.SpriteReachedEndPoint) { }
             sprite.MoveTo(ptKitVSL);
             sprite.AutomaticallyMoves = true;
@@ -72,7 +73,7 @@ namespace Project
 
             if (X < 600)
             {
-                //Entrée cuisine gauche
+                //Entrée cuisine gauche, Left kitchen entrance
                 ptKitVSL.Add(new Point(615, Y));
                 ptKitVSL.Add(new Point(615, 200));
                 ptKitVSL.Add(new Point(700, 200));
@@ -80,13 +81,13 @@ namespace Project
             }
             else
             {
-                //Entrée cuisine bas
+                //Entrée cuisine bas, Right kitchen entrance
                 ptKitVSL.Add(new Point(1255, Y));
                 ptKitVSL.Add(new Point(1255, 415));
                 ptKitVSL.Add(new Point(1117, 410));
                 ptKitVSL.Add(new Point(1117, 330));
 
-                //Va déposer l'assiette
+                
                 ptKitVSL.Add(new Point(1029, 110));
             }
 
@@ -96,7 +97,7 @@ namespace Project
             sprite.MovementSpeed = Form1.speed;
         }
         //
-        //Méthode pour aller chercher le plat prêt
+        //Méthode pour aller chercher le plat prêt, Method for fetching the ready dish
         public void GoToKitchenPLAT(Sprite sprite)
         {
             var X = sprite.PictureBoxLocation.X;
@@ -105,23 +106,23 @@ namespace Project
 
             if (X < 600)
             {
-                //Entrée cuisine gauche
+                //Entrée cuisine gauche, Left kitchen entrance
                 ptKitPL.Add(new Point(615, Y));
                 ptKitPL.Add(new Point(615, 200));
                 ptKitPL.Add(new Point(700, 200));
 
-                //Va au prêt à servir
+                
                 ptKitPL.Add(new Point(822, 215));
             }
             else
             {
-                //Entrée cuisine bas
+                //Entrée cuisine bas, Right kitchen entrance
                 ptKitPL.Add(new Point(1255, Y));
                 ptKitPL.Add(new Point(1255, 415));
                 ptKitPL.Add(new Point(1117, 410));
                 ptKitPL.Add(new Point(1117, 330));
 
-                //Va au prêt à servir
+                
                 ptKitPL.Add(new Point(955, 260));
             }
 
@@ -132,7 +133,7 @@ namespace Project
 
         }
 
-        // Rebondir - pour tests => mais inutile dans la finalité
+
         public void SpriteBounces(object sender, SpriteEventArgs e)
         {
             Random rnd = new Random();
@@ -140,9 +141,9 @@ namespace Project
             Sprite sprite = (Sprite)sender;
             sprite.SetSpriteDirectionDegrees(rndnumber);
 
-        } // A METTRE A LA TOUTE FIN DU CONTROLLER CAR INUTILE DONC PREFERABLE ICI
+        } //end controller
 
-        //Va en direction de la table
+        //Va en direction de la table, Go towards the table
         public void GoToTable(Sprite sprite, int nbTable)
         {
             foreach (Square square in model.restaurationRoom.squares) 
@@ -166,7 +167,7 @@ namespace Project
             
         }
 
-        //Va en direction du maitre d'hotel
+        //Va en direction du maitre d'hotel, Go towards  butler
         public void GoToButler(Sprite sprite)
         {
             Console.WriteLine("Le " + sprite.SpriteName + " va vers le maitre d'hôtel");
@@ -177,7 +178,8 @@ namespace Project
         }
 
 
-        //Va en direction du frigo et le vide selon recette
+        //Va en direction du frigo et le vide selon recette, 
+        //Go in the direction of the fridge and vacuum according to recipe
         public void GoToFridge(Sprite sprite)
         {
             var ptFrid = new List<Point>
@@ -192,7 +194,7 @@ namespace Project
             //viderFrigo();
         }
 
-        //Va en direction du stock
+        //Va en direction du stock, Go towards the stock
         public void GoToStock(Sprite sprite)
         {
             var ptStk = new List<Point>
@@ -206,8 +208,8 @@ namespace Project
             while (!sprite.SpriteReachedEndPoint) { }
         }
 
-        
-        //Va en direction de la cuisine
+
+        //Va en direction de la cuisine, Go towards the kitchen
         public void Go2KitFromStk(object sender, SpriteEventArgs e)
         {
             Sprite sprite = (Sprite)sender;
@@ -222,8 +224,8 @@ namespace Project
             while (!sprite.SpriteReachedEndPoint) { }
         }
 
-        //A Faire //
-        //Le client s'en va du restaurant => entrée
+
+        //The customer leaves the restaurant => entrance
         public void ClientLeave(Sprite sprite)
         {
             var X = sprite.PictureBoxLocation.X;

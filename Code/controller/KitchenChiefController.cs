@@ -18,7 +18,6 @@ namespace Project
             Task butlerTask = new Task(() => WatchLoop());
             butlerTask.Start();
 
-
         }
 
         public void WatchLoop()
@@ -31,7 +30,7 @@ namespace Project
                 if (model.kitchen.order.Count > 0)
                 {
                     
-                    Console.WriteLine("Le thread de gestion du chef de cuisine est lancé");
+                    Console.WriteLine("Lancement du thread de gestion du chef de cuisine");
                     var x = model.kitchen.order.Count;
                     for (int i = 0; i < model.kitchen.order.Count; i++)
                     {
